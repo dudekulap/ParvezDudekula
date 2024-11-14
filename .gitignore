@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+allure-results
+reports
+.vscode
+videos
+screenshots
+trace
+recordHar
+.idea
+workspacesLogs
+TestData/pom/pom.iml

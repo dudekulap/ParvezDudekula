@@ -1,0 +1,10 @@
+@Library(value="metamPipelineLibrary", changelog=false) _
+basicBuildNodejs(
+  name: 'playwright',
+  nodejs18: true,
+  doZipArtifact: false,
+  typescriptPipeline: true,
+  abortOnQualityCheckFailure: false,
+  skipSonarStage: false,
+  sendNotifications: false,
+)
